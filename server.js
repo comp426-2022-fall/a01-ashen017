@@ -5,7 +5,7 @@ const fs = require('Fs')
 // Require minimist module (make sure you install this one via npm).
 const Args = Require('Minimist')(Process.Argv.Slice(2));
 // Use minimist to process one argument `--port=` on the command line after `node server.js`.0
-Node server.js --port=port
+Node server.js --port=Args.port
 // Define a const `port` using the argument from the command line. 
 // Make this const default to port 3000 if there is no argument given for `--port`.
 const port = process.env.PORT || 3000
