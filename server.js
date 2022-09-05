@@ -17,7 +17,7 @@ const port = Args.Port || process.env.PORT || 3000;
 // If there is an error, put it on the console error and return. 
 // Do not be nice about exiting.
 fs.readFile('./public/index.html', (Err, Data) => {
-	If (Err) {
+	if (Err) {
 		Console.Error(Err);
 		Return;
 	}
