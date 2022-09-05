@@ -1,0 +1,31 @@
+{
+  "name": "allen_webserver",
+  "version": "1.0.0",
+  "description": "Package contains a very simple webserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js --port=5555"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a01-ashen017.git"
+  },
+  "keywords": [
+    "web",
+    "server",
+    "port",
+    "node",
+    "fs",
+    "args",
+    "http"
+  ],
+  "author": "ashen017",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a01-ashen017/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a01-ashen017#readme",
+  "dependencies": {
+    "minimist": "^1.2.6"
+  }
+}
