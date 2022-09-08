@@ -24,7 +24,7 @@ fs.readFile('./public/index.html', 'Utf8', (err, data) => {
 	const server = http.createServer((req, res) => {
 		res.statusCode = 200
 		res.setHeader('Content-Type', 'text/html')
-		res.end(`./public/index.html`)
+		res.end(data)
 	})
 	server.listen(port, () => {
 		console.log(`Server listening on port ${port}`)
